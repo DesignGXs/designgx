@@ -1,12 +1,11 @@
+import React from 'react'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <h1>Site is Under Development</h1>
+    <div>
+        <h1>SITE IS UNDER DEVELOPMENT</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
