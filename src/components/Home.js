@@ -1,11 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import logo from '../Assets/logo.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Typewriter } from 'react-simple-typewriter'; // Import Typewriter
-
+import { Typewriter } from 'react-simple-typewriter';
+  
 const LandingPage = () => {
-  const headerRef = useRef(null);
   const mainRef = useRef(null);
 
   useEffect(() => {
@@ -16,20 +14,28 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white flex flex-col">
-      <header ref={headerRef} className="p-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <img src={logo} className='h-16 w-16' alt="Logo" />
-          <h2>DesignGX</h2>
-        </div>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#Service" className="text-gray-600 hover:text-gray-900">Services</a></li>
-            <li><a href="#Contact" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
+    <div className="min-h-screen flex flex-col">
       
+<<<<<<< HEAD
+      <main
+        ref={mainRef}
+        className="flex-grow text-center py-20 bg-gray-100 flex flex-col justify-center items-center"
+        data-aos="fade-up"
+      >
+        <h1 className="text-4xl font-bold mb-4">
+          Empowering Your Business with
+        </h1>
+        <h2 className="text-3xl text-grey-600 font-semibold">
+          <Typewriter
+            words={['Innovative IT Solutions','Business Management','Mobile Application development','SEO development','Web Development','IT Solutions and Consluting']}
+            loop={0}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+=======
       <main ref={mainRef} className="flex-grow flex flex-col items-center justify-center text-center px-4" data-aos="fade-up">
         <h1 className="text-4xl font-bold mb-2">Empowering Your Business</h1>
         <p className="text-xl text-gray-600">with Innovative IT Solutions</p>
@@ -48,10 +54,9 @@ const LandingPage = () => {
               className="inline-block  text-lg"
             />
           </span>
+>>>>>>> ba9b7accd4bd239217035c38bf345fd64f0535d9
         </h2>
       </main>
-      
-      <footer className="bg-gray-100 h-16"></footer>
     </div>
   );
 };

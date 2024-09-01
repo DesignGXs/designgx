@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;  
 
+<<<<<<< HEAD
+.circle{
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: #b8cdf4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+=======
 .relative{
     font-size: 30px;
     font-weight: 1000;
 }
+>>>>>>> ba9b7accd4bd239217035c38bf345fd64f0535d9
