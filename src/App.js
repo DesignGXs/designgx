@@ -2,14 +2,18 @@ import React from 'react'
 import Home from './components/Home'
 import Service from './components/Service'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Ceo from './components/Ceo'
 
 const App = () => {
   return (
     <div>
       <Home/>
       <Service/>
+      <Ceo/>
       <Contact/>
-      <h1 style={{textAlign:'center'}}>@ DesignGX 2024</h1>
+      <Footer/>
+     
     </div>
   )
 }

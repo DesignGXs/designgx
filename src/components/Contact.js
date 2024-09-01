@@ -8,9 +8,7 @@ export function Contact() {
                 <h5 className="mb-4 text-base lg:text-2xl text-blue-gray-800">
                     Connect with DesignGX
                 </h5>
-                <h1 className="mb-4 text-3xl lg:text-5xl text-blue-gray-900">
-                Let’s take a Journey with us
-                </h1>              
+                     
                 <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
                     <div className="w-full h-full lg:max-h-[450px]">
                         <iframe
@@ -78,7 +76,7 @@ export function Contact() {
                         </button>
                     </form>
                 </div>
-                <div className="mt-8 flex justify-center gap-6 text-gray-700">
+                <div className="mt-8 flex justify-start gap-6 text-gray-700">
                     <div className="flex items-center gap-2">
                         <FaMapMarkerAlt className="text-lg" />
                         <span>Karur, Tamil Nadu</span>
