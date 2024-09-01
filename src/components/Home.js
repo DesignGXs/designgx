@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import logo from '../Assets/logo.jpg';
 import AOS from 'aos';
-// import { gsap } from 'gsap';
 import 'aos/dist/aos.css';
+import { Typewriter } from 'react-simple-typewriter'; // Import Typewriter
 
 const LandingPage = () => {
   const headerRef = useRef(null);
@@ -13,8 +13,6 @@ const LandingPage = () => {
     AOS.init({
       duration: 1200,
     });
-
- 
   }, []);
 
   return (
@@ -35,6 +33,21 @@ const LandingPage = () => {
       <main ref={mainRef} className="flex-grow flex flex-col items-center justify-center text-center px-4" data-aos="fade-up">
         <h1 className="text-4xl font-bold mb-2">Empowering Your Business</h1>
         <p className="text-xl text-gray-600">with Innovative IT Solutions</p>
+        <h2 className="inline-block min-w-[300px] md:min-w-[500px] text-center md:text-left">
+          Our services are  <span></span>
+          <span className="relative">
+            <Typewriter
+              words={['Moblie App Development', 'Website Development', 'Cloud Storage','Business Management']}
+              loop={true}
+              cursor
+              cursorStyle="!"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              className="inline-block font-bold "
+            />
+          </span>
+        </h2>
       </main>
       
       <footer className="bg-gray-100 h-16"></footer>
