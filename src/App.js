@@ -1,9 +1,14 @@
 import React from 'react'
+import Home from './components/Home'
+import Service from './components/Service'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
     <div>
-        <h1>SITE IS UNDER DEVELOPMENT</h1>
+      <Home/>
+      <Service/>
+      <Contact/>
     </div>
   )
 }
