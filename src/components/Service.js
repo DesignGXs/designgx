@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import dobuyx from '../Assets/dobuyx.png'
 
-import csbImage from '../Assets/csb.jpeg'
+import csbImage from '../Assets/csb.jpg'
 import sm from '../Assets/sm.png'
 import dm from '../Assets/dm.jpg'
 const Service = () => {
