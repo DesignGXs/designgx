@@ -9,7 +9,7 @@ const LandingPage = () => {
   const mainRef = useRef(null);
 
   useEffect(() => {
-    // Initialize AOS
+   
     AOS.init({
       duration: 1200,
     });
@@ -33,18 +33,19 @@ const LandingPage = () => {
       <main ref={mainRef} className="flex-grow flex flex-col items-center justify-center text-center px-4" data-aos="fade-up">
         <h1 className="text-4xl font-bold mb-2">Empowering Your Business</h1>
         <p className="text-xl text-gray-600">with Innovative IT Solutions</p>
+      
         <h2 className="inline-block min-w-[300px] md:min-w-[500px] text-center md:text-left">
           Our services are  <span></span>
           <span className="relative">
             <Typewriter
-              words={['Moblie App Development', 'Website Development', 'Cloud Storage','Business Management']}
+              words={['Mobile App Development', 'Website Development', 'Cloud Storage','Business Management']}
               loop={true}
               cursor
               cursorStyle="!"
-              typeSpeed={70}
+              typeSpeed={50}
               deleteSpeed={50}
               delaySpeed={1000}
-              className="inline-block font-bold "
+              className="inline-block  text-lg"
             />
           </span>
         </h2>

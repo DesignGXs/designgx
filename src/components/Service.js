@@ -1,27 +1,73 @@
 import React from 'react';
-
+import csbImage from '../Assets/csb.jpeg'
+import sm from '../Assets/sm.png'
+import dm from '../Assets/dm.jpg'
 const Service = () => {
   return (
     <div className="w-full min-h-screen flex flex-col justify-center items-center bg-gray-100" id="Service">
       <div className="container mx-auto px-4 py-12">
         <h2 className="text-4xl font-bold text-center mb-12">Services</h2>
         
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <div className="space-y-4">
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={csbImage} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Managed IT Services</div>
+    <p class="text-gray-700 text-base">
+    Outsource your IT management to us and focus on your core business
+    while we handle your IT operations with precision.
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Cloud</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># It Solutions</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Security</span>
+  </div>
+</div>
+ <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={sm} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Engaging and Tailored Content That Resonates</div>
+    <p class="text-gray-700 text-base">
+    We create high-quality, original content tailored to your brand's
+    voice and audience.
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Video Editing</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Content Creation</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Social Account Management</span>
+  </div>
+</div>
+ <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={dm} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Digital Marketig</div>
+    <p class="text-gray-700 text-base">
+    Designed to help businesses connect with their audience through various online channels.digital marketing helps businesses build their brand and achieve their goals in the digital space.
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># SEO</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Affliate</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># Brand Boostin</span>
+  </div>
+</div>
+          {/* <div className="space-y-4">
             <h3 className="text-2xl font-semibold">Managed IT Services</h3>
             <p className="text-gray-600">
               Outsource your IT management to us and focus on your core business
               while we handle your IT operations with precision.
             </p>
-          </div>
+          </div> */}
           
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-2xl font-semibold">Engaging and Tailored Content That Resonates</h3>
             <p className="text-gray-600">
               We create high-quality, original content tailored to your brand's
               voice and audience.
             </p>
-          </div>
+          </div> */}
         </div>
         
         <div className="text-center">
