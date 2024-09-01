@@ -3,19 +3,14 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export function Contact() {
     return (
-        <section className="px-8 py-8 lg:py-16">
+        <section className="px-8 py-8 lg:py-16" id="Contact">
             <div className="container mx-auto text-center">
                 <h5 className="mb-4 text-base lg:text-2xl text-blue-gray-800">
-                    Customer Care
+                    Connect with DesignGX
                 </h5>
                 <h1 className="mb-4 text-3xl lg:text-5xl text-blue-gray-900">
-                    We&apos;re Here to Help
-                </h1>
-                <p className="mb-10 font-normal text-lg lg:mb-20 mx-auto max-w-3xl text-gray-500">
-                    Whether it&apos;s a question about our services, a request for
-                    technical assistance, or suggestions for improvement, our team is
-                    eager to hear from you.
-                </p>
+                Let’s take a Journey with us
+                </h1>              
                 <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
                     <div className="w-full h-full lg:max-h-[450px]">
                         <iframe
@@ -28,24 +23,7 @@ export function Contact() {
                             referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
                     </div>
-                    <form action="#" className="flex flex-col gap-4 lg:max-w-sm">
-                        <label className="text-left font-semibold text-gray-600">
-                            Select Options for Business Engagement
-                        </label>
-                        <div className="flex gap-4">
-                            <button
-                                type="button"
-                                className="border border-gray-400 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-100"
-                            >
-                                General inquiry
-                            </button>
-                            <button
-                                type="button"
-                                className="border border-gray-400 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-100"
-                            >
-                                Product Support
-                            </button>
-                        </div>
+                    <form action="#" className="flex flex-col gap-4 lg:max-w-sm">                       
                         <div className="grid grid-cols-2 gap-4">
                             <div>
                                 <label className="mb-2 text-left font-medium text-gray-900">
@@ -107,11 +85,11 @@ export function Contact() {
                     </div>
                     <div className="flex items-center gap-2">
                         <FaPhoneAlt className="text-lg" />
-                        <span>+91 12345 67890</span>
+                        <span>+91 84288 58296</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <FaEnvelope className="text-lg" />
-                        <span>support@example.com</span>
+                        <span>selvabuisnessman@gmail.com</span>
                     </div>
                 </div>
             </div>

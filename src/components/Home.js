@@ -22,11 +22,12 @@ const LandingPage = () => {
       <header ref={headerRef} className="p-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} className='h-16 w-16' alt="Logo" />
+          <h2>DesignGX</h2>
         </div>
         <nav>
           <ul className="flex space-x-4">
             <li><a href="#Service" className="text-gray-600 hover:text-gray-900">Services</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
+            <li><a href="#Contact" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
           </ul>
         </nav>
       </header>
