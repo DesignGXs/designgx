@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../Assets/Home/logo.jpeg'
+import logo from '../Assets/logo.jpg'
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <header className="p-4 flex justify-between items-center">
         <div className="flex items-center">
-            img
-            
+             <img src={logo} className='h-100 w-100'/>
         </div>
         <nav>
           <ul className="flex space-x-4">
