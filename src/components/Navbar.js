@@ -108,10 +108,7 @@ const Nav = () => {
         <NavList isOpen={isOpen}>
           <NavLink to="Service" smooth={true} duration={800}>
             Services
-          </NavLink>
-          <NavLink to="Team" smooth={true} duration={800}>
-            Team
-          </NavLink>
+          </NavLink>        
           <NavLink to="Contact" smooth={true} duration={800}>
             Contact Us
           </NavLink>
